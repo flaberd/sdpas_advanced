@@ -24,6 +24,16 @@ class m130524_201442_init extends Migration
             'created_at' => $this->integer()->notNull(),
             'updated_at' => $this->integer()->notNull(),
         ], $tableOptions);
+
+        $d = new DateTime();
+        $this->insert('{{%user}}',[
+            'username' => 'admin',
+            'auth_key' => 'dszfhfhjyjhygfjhjfgh',
+            'email' => 'info@admin.ad',
+            'password_hash' => Yii::$app->security->generatePasswordHash(Yii::$app->params['adminPas']),
+            'created_at' => $d->format('Y-m-d H:i:S'),
+            'updated_at' => $d->format('Y-m-d H:i:S'),
+        ]);
     }
 
     public function down()
