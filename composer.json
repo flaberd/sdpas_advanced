@@ -17,7 +17,16 @@
         "php": ">=5.6.0",
         "yiisoft/yii2": "~2.0.14",
         "yiisoft/yii2-bootstrap": "~2.0.0",
-        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0"
+        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+        "kartik-v/yii2-widget-sidenav": "*",
+        "kartik-v/yii2-nav-x": "dev-master",
+        "mihaildev/yii2-elfinder": "*",
+        "costa-rico/yii2-images": "dev-widget",
+        "abeautifulsite/simpleimage": "2.5.6",
+        "kartik-v/yii2-widget-select2": "dev-master",
+        "codemix/yii2-localeurls": "^1.7",
+        "flaberd/yii2-dynamicform-remastered": "*",
+        "mihaildev/yii2-ckeditor": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",
