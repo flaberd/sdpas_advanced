@@ -77,6 +77,11 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    public function actionVitalik()
+    {
+        return $this->render('vitalik');
+    }
+
     /**
      * Logs in a user.
      *
