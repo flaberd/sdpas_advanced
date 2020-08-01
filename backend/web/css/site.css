@@ -119,3 +119,58 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+
+/* Best style #e71800 rgba(255,73,52,1) */
+.flex {display: flex;display: -webkit-flex;flex-direction: column;}
+.flex.flex_between {justify-content: space-between;}
+.flex.flex_end {justify-content: flex-end;}
+.flex_sidebar {width: 7%;}
+.flex_content {width: 93%;}
+a {color: inherit;}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {vertical-align: middle;}
+
+.btn {border-radius: 0px;padding: 7px 20px;}
+.panel-heading, .panel, .kv-sidenav li a {border: none;border-radius: 0;}
+.nav-stacked > li + li {margin-top: 0px;}
+.breadcrumb {background-color: transparent;border-radius: 0px;font-size: 12px;}
+.select2-container--krajee .select2-selection {border-radius: 0px;}
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {border-bottom: 1px;}
+
+@media(min-width:768px) {
+    .flex {display: flex;display: -webkit-flex;flex-direction: row;}
+    .admin_content .top_menu .navbar-right {margin-right: 0px;}
+}
+
+.admin_header {background-color: rgba(255,73,52,1);color: #ffffff;}
+.admin_header_inner {border-bottom: 1px solid rgba(255,73,52,1);border-top: 1px solid rgba(255,73,52,1); align-items: center;}
+.admin_header_logo img {height: auto;width: 200px;}
+.admin_header_menu ul {align-items: center; margin: 0px;padding: 0;}
+.admin_header_menu li {list-style: none;}
+.admin_header_logout {background-color: #ffffff;color: rgba(255,73,52,1);display: block;font-size: 18px;line-height: 100%;margin-left: 10px;margin-right: 1px; padding: 10px;}
+
+.sidebar_menu {background-color: #333333;padding-left: 0px;padding-right: 0px;}
+.sidebar_menu .panel {background-color: transparent;color: #ffffff;}
+.sidebar_menu .kv-sidenav li a  {background-color: #494949;border-bottom: 1px solid #333333;font-size: 12px; padding: 15px 3px; text-align: center;}
+.sidebar_menu .kv-sidenav li a:hover, .sidebar_menu .kv-sidenav li.active a {background-color: #666;color: #ffffff;}
+.sidebar_menu .kv-sidenav li a span {display: block;font-size: 18px;}
+
+.admin_content {min-height: 100vh;}
+.admin_content_inner {box-sizing: border-box;}
+.admin_content_inner h1 {margin-top: 0px;}
+.admin_content_inner .page-index, .admin_content_inner .page-wrapper {padding: 10px;}
+
+.admin_content .top_menu {border-bottom: 1px solid #999999;}
+.admin_content .top_menu .navbar-nav > li > a {padding-top: 22px;padding-bottom: 23px;}
+.admin_content .top_menu li.active, .admin_content .top_menu li:hover {background-color: rgba(255,73,52,1);color: #ffffff;}
+.admin_content .top_menu li a:hover {background-color: transparent;color: #ffffff;}
+th {background-color: rgba(255,73,52,1);color: #ffffff;}
+.table-striped > tbody > tr:nth-child(odd) {background-color: rgba(0,0,0,0.05);}
+.table-striped > tbody > tr:nth-child(even) {background-color: rgba(0,0,0,0.1);}
+
+.translate_text {max-width: 400px;}
+.translate_form > div {position: relative;}
+.translate_form .alert {align-items: center;display: flex;display: -webkit-flex;flex-direction: row-reverse; justify-content: space-between;margin-bottom: 0;padding: 10px;position: absolute;right: 0px;top: 0px;}
+.translate_form .alert button {position: static;margin-left: 10px;}
+.translate_form .alert h4 {margin-bottom: 0;}
+
+.panel-body img {max-width: 100px;}
